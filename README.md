@@ -1,5 +1,6 @@
 ### 🤝 Marco Pasqualetti
 I am a web developer and I am always interested in learning new development techniques.
+
 I quite enjoy learning tools that allow you to lint the code or in general allow you to configure projects in an orderly and easily maintainable way.
 
 ## 🔭 I’m currently working on
