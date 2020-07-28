@@ -28,7 +28,7 @@ Rewriting [RactiveJS](https://ractive.js.org) in typescript!
 * Marvel (📓 & 🎥) (Thanos team!)
 * Videogames (in particular I love)
   * Halo
-  * Assassins's Creed
+  * Assassin's Creed
 
 ## ⚡ Fun fact:
 Sometimes I like to be an Imperial Stormtrooper or Darth Maul
