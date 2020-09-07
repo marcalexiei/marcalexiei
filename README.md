@@ -20,6 +20,8 @@ Rewriting [RactiveJS](https://ractive.js.org) in typescript!
   * PostCSS
 * HTML5
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=marcalexiei&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
 ## 😺 Interests
 * History (📚)
   * Egypt
@@ -35,6 +37,7 @@ Rewriting [RactiveJS](https://ractive.js.org) in typescript!
 
 ## ⚡ Fun fact:
 Sometimes I like to be an Imperial Stormtrooper or Darth Maul
+
 
 <!--
 **marcalexiei/marcalexiei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
