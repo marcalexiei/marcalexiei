@@ -10,10 +10,6 @@ Rewriting [RactiveJS](https://ractive.js.org) in typescript!
 * Javascript
   * ES6
   * Typescript
-  * Libraries / Framework and tools
-    * Angular
-    * [RactiveJS](https://ractive.js.org)
-    * Webpack
 * CSS
   * CSS3
   * SCSS
