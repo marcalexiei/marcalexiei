@@ -5,7 +5,7 @@ I quite enjoy learning tools that allow you to lint the code or in general allow
 
 ## 🔭 I’m currently working on
 Rewriting [RactiveJS](https://ractive.js.org) in typescript!
-
+<!--
 ## 💻 Skills
 * Javascript
   * ES6
@@ -14,8 +14,7 @@ Rewriting [RactiveJS](https://ractive.js.org) in typescript!
   * CSS3
   * SCSS
   * PostCSS
-* HTML5
-
+-->
 [![trophy](https://github-profile-trophy.vercel.app/?username=marcalexiei&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 😺 Interests
