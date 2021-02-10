@@ -4,7 +4,12 @@ I am a web developer and I am always interested in learning new development tech
 I quite enjoy learning tools that allow you to lint the code or in general allow you to configure projects in an orderly and easily maintainable way.
 
 ## 🔭 I’m currently working on
+Understand what to do with my life
+
+<!--
 Rewriting [RactiveJS](https://ractive.js.org) in typescript!
+-->
+
 <!--
 ## 💻 Skills
 * Javascript
