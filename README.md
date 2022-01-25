@@ -3,12 +3,13 @@ I am a web developer and I am always interested in learning new development tech
 
 I quite enjoy learning tools that allow you to lint the code or in general allow you to configure projects in an orderly and easily maintainable way.
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
+<!--
+[![trophy](https://github-profile-trophy.vercel.app/?username=marcalexiei&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+-->
+
 ## 🔭 I’m currently working on
 Understand what to do with my life
-
-<!--
-Rewriting [RactiveJS](https://ractive.js.org) in typescript!
--->
 
 <!--
 ## 💻 Skills
@@ -20,7 +21,6 @@ Rewriting [RactiveJS](https://ractive.js.org) in typescript!
   * SCSS
   * PostCSS
 -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=marcalexiei&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 😺 Interests
 * History (📚)
