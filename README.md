@@ -1,7 +1,9 @@
 ### 🤝 Marco Pasqualetti
-I am a web developer and I am always interested in learning new development techniques.
+I am a web developer, always interested in learning new development techniques.
 
-I quite enjoy learning tools that allow you to lint the code or in general allow you to configure projects in an orderly and easily maintainable way.
+I enjoy learning tools that allow you to lint the code, format and build code projects.
+
+In general any tool that makes maintenance easier by letting you focus on writing code.
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
 <!--
@@ -9,7 +11,7 @@ I quite enjoy learning tools that allow you to lint the code or in general allow
 -->
 
 ## 🔭 I’m currently working on
-Understand what to do with my life
+Figuring out what to do with my life
 
 <!--
 ## 💻 Skills
@@ -36,7 +38,7 @@ Understand what to do with my life
   * Mass Effect
 
 ## ⚡ Fun fact:
-Sometimes I like to be an Imperial Stormtrooper or Darth Maul
+Sometimes I pretend to be an Imperial Stormtrooper or Darth Maul
 
 
 <!--
