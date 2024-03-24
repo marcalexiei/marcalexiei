@@ -2,9 +2,11 @@
 
 I am a web developer, always interested in learning new development techniques.
 
-I enjoy learning tools that allow you to lint the code, format and build code projects.
+I enjoy learning tools that allow you to lint the code, format and build code
+projects.
 
-In general any tool that makes maintenance easier by letting you focus on writing code.
+In general any tool that makes maintenance easier by letting
+you focus on writing code.
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
 <!--
@@ -45,7 +47,8 @@ Figuring out what to do with my life
 Sometimes I pretend to be an Imperial Stormtrooper or Darth Maul
 
 <!--
-**marcalexiei/marcalexiei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**marcalexiei/marcalexiei** is a ✨ _special_ ✨ repository.
+Its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
