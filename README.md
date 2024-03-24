@@ -1,4 +1,5 @@
-### 🤝 Marco Pasqualetti
+# 🤝 Marco Pasqualetti
+
 I am a web developer, always interested in learning new development techniques.
 
 I enjoy learning tools that allow you to lint the code, format and build code projects.
@@ -11,6 +12,7 @@ In general any tool that makes maintenance easier by letting you focus on writin
 -->
 
 ## 🔭 I’m currently working on
+
 Figuring out what to do with my life
 
 <!--
@@ -25,6 +27,7 @@ Figuring out what to do with my life
 -->
 
 ## 😺 Interests
+
 * History (📚)
   * Egypt
   * Rome
@@ -37,9 +40,9 @@ Figuring out what to do with my life
   * Horizon Zero Dawn
   * Mass Effect
 
-## ⚡ Fun fact:
-Sometimes I pretend to be an Imperial Stormtrooper or Darth Maul
+## ⚡ Fun fact
 
+Sometimes I pretend to be an Imperial Stormtrooper or Darth Maul
 
 <!--
 **marcalexiei/marcalexiei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
