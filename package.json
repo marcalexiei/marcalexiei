@@ -6,8 +6,9 @@
     "node": ">= 20"
   },
   "scripts": {
+    "test:word-spell": "npx cspell . --show-context",
     "test:markdown": "markdownlint \"**/*.md\"",
-    "test": "npm run test:markdown"
+    "test": "npm run test:markdown && npm run test:word-spell"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/marcalexiei/marcalexiei#readme",
   "devDependencies": {
+    "cspell": "8.6.0",
     "markdownlint": "0.34.0",
     "markdownlint-cli": "0.39.0"
   }

@@ -33,7 +33,7 @@ Figuring out what to do with my life
   * Rome
 * Star Wars (✨)
 * Marvel (📓 & 🎥) (Thanos team!)
-* Videogames (in particular I love)
+* VideoGames (in particular I love)
   * Assassin's Creed
   * Dragon age
   * Halo
