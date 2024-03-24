@@ -1,0 +1,26 @@
+{
+  "name": "marcalexiei",
+  "version": "1.0.0",
+  "description": "Github profile page",
+  "engines": {
+    "node": ">= 20"
+  },
+  "scripts": {
+    "test:markdown": "markdownlint \"**/*.md\"",
+    "test": "npm run test:markdown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcalexiei/marcalexiei.git"
+  },
+  "author": "Marco Pasqualetti <marco.pasqualetti@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcalexiei/marcalexiei/issues"
+  },
+  "homepage": "https://github.com/marcalexiei/marcalexiei#readme",
+  "devDependencies": {
+    "markdownlint": "0.34.0",
+    "markdownlint-cli": "0.39.0"
+  }
+}
