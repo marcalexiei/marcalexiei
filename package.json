@@ -7,7 +7,7 @@
   },
   "scripts": {
     "prepare": "husky",
-    "format": "biome format .",
+    "format": "biome format . .github",
     "format:fix": "npm run format -- --write",
     "test:word-spell": "npx cspell . --show-context",
     "test:markdown": "markdownlint ./*.md",
