@@ -46,6 +46,10 @@ Figuring out what to do with my life
 
 Sometimes I pretend to be an Imperial Stormtrooper or Darth Maul
 
+## README Repo CI status
+
+[![CI](https://github.com/marcalexiei/marcalexiei/actions/workflows/CI.yml/badge.svg)](https://github.com/marcalexiei/marcalexiei/actions/workflows/CI.yml)
+
 <!--
 **marcalexiei/marcalexiei** is a ✨ _special_ ✨ repository.
 Its `README.md` (this file) appears on your GitHub profile.
