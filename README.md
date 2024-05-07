@@ -30,17 +30,29 @@ Figuring out what to do with my life
 
 ## 😺 Interests
 
-* History (📚)
-  * Egypt
-  * Rome
+In the sections below you will find my favorite topics about various
+areas of interest:
+
+### 📚 History
+
+* Egypt
+* Rome
+
+### ⌨️🖱️ VideoGames
+
+* Halo
+* Mass Effect
+* Horizon
+* Dragon age
+* Assassin's Creed
+
+### 📽️ Film / TV series
+
 * Star Wars (✨)
 * Marvel (📓 & 🎥) (Thanos team!)
-* VideoGames (in particular I love)
-  * Assassin's Creed
-  * Dragon age
-  * Halo
-  * Horizon Zero Dawn
-  * Mass Effect
+* For all mankind
+* WestWorld
+* Breaking bad
 
 ## ⚡ Fun fact
 
