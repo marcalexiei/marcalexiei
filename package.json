@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/marcalexiei/marcalexiei#readme",
   "devDependencies": {
-    "@biomejs/biome": "1.7.3",
+    "@biomejs/biome": "1.8.1",
     "cspell": "8.8.4",
     "husky": "9.0.11",
     "markdownlint": "0.34.0",
