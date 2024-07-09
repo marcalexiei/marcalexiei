@@ -9,9 +9,10 @@
     "prepare": "husky",
     "format": "biome format . .github",
     "format:fix": "npm run format -- --write",
-    "test:word-spell": "npx cspell . --show-context",
-    "test:markdown": "markdownlint ./*.md",
-    "test": "npm run test:markdown && npm run test:word-spell"
+    "lint": "markdownlint ./*.md",
+    "lint:fix": "npm run lint -- --fix",
+    "spellcheck": "npx cspell . --show-context",
+    "test": "npm run spellcheck"
   },
   "repository": {
     "type": "git",
