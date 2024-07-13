@@ -7,5 +7,7 @@
     "marcalexiei",
     "Pasqualetti",
     "biomejs"
-  ]
+  ],
+  "useGitignore": true,
+  "ignorePaths": ["**/*-lock.yaml"]
 }

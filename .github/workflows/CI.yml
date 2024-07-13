@@ -25,13 +25,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
         with:
           node-version-file: ".nvmrc"
-          cache: "npm"
+          cache: "pnpm"
 
       - name: Install
-        run: npm install
+        run: pnpm install
 
       - name: Run ${{ matrix.script }}
-        run: npm run ${{ matrix.script }}
+        run: pnpm run ${{ matrix.script }}
