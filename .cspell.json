@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "words": [
-    "Anurag's",
-    "Stormtrooper",
-    "Thanos",
+    "biomejs",
+    "Intelli",
     "marcalexiei",
     "Pasqualetti",
-    "biomejs"
+    "Stormtrooper",
+    "Thanos"
   ],
   "useGitignore": true,
   "ignorePaths": ["**/*-lock.yaml"]
