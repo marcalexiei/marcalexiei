@@ -8,7 +8,7 @@ projects.
 In general any tool that makes maintenance easier by letting
 you focus on writing code.
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
+![Marco Pasqualetti's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
 <!--
 [![trophy](https://github-profile-trophy.vercel.app/?username=marcalexiei&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 -->
