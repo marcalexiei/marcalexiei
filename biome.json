@@ -8,8 +8,7 @@
     "ignoreUnknown": true
   },
   "formatter": {
-    "ignore": [".husky", "package-lock.json"],
-    "indentStyle": "space",
-    "indentWidth": 2
+    "useEditorconfig": true,
+    "ignore": [".husky", "package-lock.json"]
   }
 }
