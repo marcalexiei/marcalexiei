@@ -9,11 +9,11 @@
   "scripts": {
     "prepare": "husky",
     "format": "biome format .",
-    "format:fix": "npm run format -- --write",
+    "format:fix": "pnpm run format --write",
     "lint": "markdownlint ./*.md",
-    "lint:fix": "npm run lint -- --fix",
-    "spellcheck": "npx cspell . --show-context",
-    "test": "npm run spellcheck"
+    "lint:fix": "pnpm run lint --fix",
+    "spellcheck": "cspell . --show-context",
+    "test": "pnpm run spellcheck"
   },
   "repository": {
     "type": "git",
