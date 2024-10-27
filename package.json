@@ -1,5 +1,6 @@
 {
   "name": "marcalexiei",
+  "private": true,
   "version": "1.0.0",
   "description": "Github profile page",
   "engines": {
@@ -17,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcalexiei/marcalexiei.git"
+    "url": "https://github.com/marcalexiei/marcalexiei.git"
   },
   "author": "Marco Pasqualetti <marco.pasqualetti@live.com>",
   "license": "MIT",
