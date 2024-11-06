@@ -6,16 +6,6 @@
   "engines": {
     "node": ">= 20"
   },
-  "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4",
-  "scripts": {
-    "prepare": "husky",
-    "format": "biome format .",
-    "format:fix": "pnpm run format --write",
-    "lint": "markdownlint ./*.md",
-    "lint:fix": "pnpm run lint --fix",
-    "spellcheck": "cspell . --show-context",
-    "test": "pnpm run spellcheck"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/marcalexiei/marcalexiei.git"
@@ -26,9 +16,19 @@
     "url": "https://github.com/marcalexiei/marcalexiei/issues"
   },
   "homepage": "https://github.com/marcalexiei/marcalexiei#readme",
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+  "scripts": {
+    "prepare": "husky",
+    "format": "biome format .",
+    "format:fix": "pnpm run format --write",
+    "lint": "markdownlint ./*.md",
+    "lint:fix": "pnpm run lint --fix",
+    "spellcheck": "cspell . --show-context",
+    "test": "pnpm run spellcheck"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "cspell": "8.15.4",
+    "cspell": "8.15.7",
     "husky": "9.1.6",
     "markdownlint": "0.36.1",
     "markdownlint-cli": "0.42.0"
