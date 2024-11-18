@@ -29,7 +29,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "cspell": "8.16.0",
-    "husky": "9.1.6",
+    "husky": "9.1.7",
     "markdownlint": "0.36.1",
     "markdownlint-cli": "0.42.0"
   }
