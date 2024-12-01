@@ -54,24 +54,24 @@ areas of interest:
 
 ### 📚 History
 
-* Ancient Egypt △
-* Rome 🏛️
+- Ancient Egypt △
+- Rome 🏛️
 
 ### ⌨️🖱️ VideoGames
 
-* Halo 💍
-* Mass Effect 🚀
-* Horizon 🏹
-* Dragon age 🐉
-* Assassin's Creed 🗡️
+- Halo 💍
+- Mass Effect 🚀
+- Horizon 🏹
+- Dragon age 🐉
+- Assassin's Creed 🗡️
 
 ### 📽️ Film / TV series
 
-* Star Wars (✨)
-* Marvel (📓 & 🎥) (Thanos team!)
-* For all mankind 🌌
-* WestWorld 🦾
-* Breaking bad 💊
+- Star Wars (✨)
+- Marvel (📓 & 🎥) (Thanos team!)
+- For all mankind 🌌
+- WestWorld 🦾
+- Breaking bad 💊
 
 ## ⚡ Fun fact
 
