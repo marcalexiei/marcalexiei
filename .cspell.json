@@ -6,7 +6,8 @@
     "marcalexiei",
     "Pasqualetti",
     "Stormtrooper",
-    "Thanos"
+    "Thanos",
+    "tuono"
   ],
   "useGitignore": true,
   "ignorePaths": ["**/*-lock.yaml"]

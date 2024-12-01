@@ -15,7 +15,8 @@ you focus on writing code.
 
 ## 🔭 I’m currently working on
 
-Figuring out what to do with my life
+- Figuring out what to do with my life
+- Support development of [⚡️ tuono ⚡️](https://github.com/tuono-labs)
 
 <!--
 ## 💻 Skills
