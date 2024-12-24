@@ -24,7 +24,8 @@
     "lint": "markdownlint ./*.md",
     "lint:fix": "pnpm run lint --fix",
     "spellcheck": "cspell . --show-context",
-    "test": "pnpm run spellcheck"
+    "test": "pnpm run spellcheck",
+    "check-all": "pnpm run \"/^(lint|format|test)$/\""
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
