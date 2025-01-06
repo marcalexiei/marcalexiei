@@ -31,7 +31,7 @@
     "@biomejs/biome": "1.9.4",
     "cspell": "8.17.1",
     "husky": "9.1.7",
-    "markdownlint": "0.37.2",
+    "markdownlint": "0.37.3",
     "markdownlint-cli": "0.43.0"
   }
 }
