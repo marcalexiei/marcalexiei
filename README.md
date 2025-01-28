@@ -1,12 +1,9 @@
 # 🤝 Marco Pasqualetti
 
-I am a web developer, always interested in learning new development techniques.
+I’m a web developer with a passion for learning new development techniques.
 
-I enjoy learning tools that allow you to lint the code, format and build code
-projects.
-
-In general any tool that makes maintenance easier by letting
-you focus on writing code.
+I enjoy exploring tools that help lint, format, and build code projects,
+as well as anything that simplifies maintenance and lets me focus on writing code.
 
 ![Marco Pasqualetti's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
 <!--
@@ -50,8 +47,7 @@ you focus on writing code.
 
 ## 😺 Interests
 
-In the sections below you will find my favorite topics about various
-areas of interest:
+Below, you'll find a collection of my favorite topics across various areas of interest:
 
 ### 📚 History
 
