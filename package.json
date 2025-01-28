@@ -32,6 +32,6 @@
     "cspell": "8.17.2",
     "husky": "9.1.7",
     "markdownlint": "0.37.4",
-    "markdownlint-cli": "0.43.0"
+    "markdownlint-cli": "0.44.0"
   }
 }
