@@ -9,6 +9,6 @@
   },
   "formatter": {
     "useEditorconfig": true,
-    "ignore": [".husky", "package-lock.json"]
+    "includes": ["**", "!**/.husky", "!**/package-lock.json"]
   }
 }
