@@ -6,9 +6,6 @@ I enjoy exploring tools that help lint, format, and build code projects,
 as well as anything that simplifies maintenance and lets me focus on writing code.
 
 ![Marco Pasqualetti's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
-<!--
-[![trophy](https://github-profile-trophy.vercel.app/?username=marcalexiei&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
--->
 
 ## 🔭 I’m currently working on
 
@@ -24,6 +21,7 @@ Figuring out what to do with my life
   * SCSS
   * PostCSS
 -->
+
 ## 💻 Development skills
 
 ### 📖 Programming languages
@@ -36,13 +34,23 @@ Figuring out what to do with my life
 
 ### 💡 Technologies
 
-[![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[NodeBadge]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[NodeURL]: https://nodejs.org/en
+[ReactBadge]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[ReactURL]: https://react.dev
+
+[![NodeJS][NodeBadge]][NodeURL]
+[![NodeJS][ReactBadge]][ReactURL]
 
 ### 🧑‍💻 IDE
 
-[![IntelliJ Idea](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)](https://www.jetbrains.com/idea)
-[![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com)
+[IntelliJBadge]: https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white
+[IntelliJURL]: https://nodejs.org/en
+[VSCodeBadge]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
+[VSCodeURL]: https://react.dev
+
+[![IntelliJ Idea][IntelliJBadge]][IntelliJURL]
+[![VSCode][VSCodeBadge]][VSCodeURL]
 
 ## 😺 Interests
 
@@ -75,7 +83,10 @@ Sometimes I pretend to be an Imperial Stormtrooper or Darth Maul
 
 ## README Repo CI status
 
-[![CI](https://github.com/marcalexiei/marcalexiei/actions/workflows/CI.yml/badge.svg)](https://github.com/marcalexiei/marcalexiei/actions/workflows/CI.yml)
+[CIBadge]: https://img.shields.io/github/actions/workflow/status/marcalexiei/marcalexiei/CI.yml?style=for-the-badge&logo=github&event=push&label=CI
+[CIURL]: https://github.com/marcalexiei/marcalexiei/actions/workflows/CI.yml
+
+[![CI][CIBadge]][CIURL]
 
 <!--
 **marcalexiei/marcalexiei** is a ✨ _special_ ✨ repository.
