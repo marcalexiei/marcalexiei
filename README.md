@@ -56,26 +56,13 @@ Figuring out what to do with my life
 
 Below, you'll find a collection of my favorite topics across various areas of interest:
 
-### 📚 History
+<!-- markdownlint-disable MD013 MD033 -->
 
-- Ancient Egypt △
-- Rome 🏛️
+| 📚 History | ⌨️🖱️ Video Games | 📽️ Film / TV Series |
+|------------|------------------|----------------------|
+| - Ancient Egypt 𓋹 <br> - Rome 🏛️ | - Halo 💍 <br> - Mass Effect 🚀 <br> - Horizon 🏹 <br> - Dragon Age 🐉 <br> - Assassin's Creed 🗡️ | - Star Wars ✨ <br> - Marvel 📓 & 🎥 (Thanos team!) <br> - For All Mankind 🌌 <br> - WestWorld 🦾 <br> - Breaking Bad 💊 |
 
-### ⌨️🖱️ VideoGames
-
-- Halo 💍
-- Mass Effect 🚀
-- Horizon 🏹
-- Dragon age 🐉
-- Assassin's Creed 🗡️
-
-### 📽️ Film / TV series
-
-- Star Wars (✨)
-- Marvel (📓 & 🎥) (Thanos team!)
-- For all mankind 🌌
-- WestWorld 🦾
-- Breaking bad 💊
+<!-- markdownlint-enable MD013 MD033 -->
 
 ## ⚡ Fun fact
 
