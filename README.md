@@ -1,9 +1,8 @@
 # 🤝 Marco Pasqualetti
 
-I’m a web developer with a passion for learning new development techniques.
+I’m a web developer who loves crafting clean, maintainable code.
 
-I enjoy exploring tools that help lint, format, and build code projects,
-as well as anything that simplifies maintenance and lets me focus on writing code.
+I’m always exploring new tools and techniques that make development smoother, from smarter build systems to better linting workflows.
 
 ![Marco Pasqualetti's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
 
