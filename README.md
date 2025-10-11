@@ -2,24 +2,14 @@
 
 I’m a web developer who loves crafting clean, maintainable code.
 
-I’m always exploring new tools and techniques that make development smoother, from smarter build systems to better linting workflows.
+I’m always exploring new tools and techniques that make development smoother,\
+from smarter build systems to better linting workflows.
 
 ![Marco Pasqualetti's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcalexiei&theme=dark&show_icons=true)
 
 ## 🔭 I’m currently working on
 
 Figuring out what to do with my life
-
-<!--
-## 💻 Skills
-* Javascript
-  * ES6
-  * Typescript
-* CSS
-  * CSS3
-  * SCSS
-  * PostCSS
--->
 
 ## 💻 Development skills
 
@@ -55,13 +45,39 @@ Figuring out what to do with my life
 
 Below, you'll find a collection of my favorite topics across various areas of interest:
 
-<!-- markdownlint-disable MD013 MD033 -->
+<!-- markdownlint-disable MD033 -->
 
-| 📚 History | ⌨️🖱️ Video Games | 📽️ Film / TV Series |
-|------------|------------------|----------------------|
-| - Ancient Egypt 𓋹 <br> - Rome 🏛️ | - Halo 💍 <br> - Mass Effect 🚀 <br> - Horizon 🏹 <br> - Dragon Age 🐉 <br> - Assassin's Creed 🗡️ | - Star Wars ✨ <br> - Marvel 📓 & 🎥 (Thanos team!) <br> - For All Mankind 🌌 <br> - WestWorld 🦾 <br> - Breaking Bad 💊 |
+<details>
+<summary>📚 History</summary>
 
-<!-- markdownlint-enable MD013 MD033 -->
+- Ancient Egypt 𓋹
+- Rome 🏛️
+
+</details>
+
+<details>
+<summary>⌨️🖱️ Video Games</summary>
+
+- Halo 💍
+- Mass Effect 🚀
+- Horizon 🏹
+- Dragon Age 🐉
+- Assassin's Creed 🗡️
+
+</details>
+
+<details>
+<summary>📽️ Film / TV Series</summary>
+
+- Star Wars ✨
+- Marvel 📓 & 🎥 (Thanos team!)
+- For All Mankind 🌌
+- WestWorld 🦾
+- Breaking Bad 💊
+
+</details>
+
+<!-- markdownlint-enable MD033 -->
 
 ## ⚡ Fun fact
 
