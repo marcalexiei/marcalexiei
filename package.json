@@ -1,10 +1,10 @@
 {
   "name": "marcalexiei",
+  "description": "Github profile page",
   "private": true,
   "version": "1.0.0",
-  "description": "Github profile page",
   "engines": {
-    "node": ">= 20"
+    "node": ">= 24"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/marcalexiei/marcalexiei/issues"
   },
   "homepage": "https://github.com/marcalexiei/marcalexiei#readme",
-  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748",
+  "packageManager": "pnpm@10.18.3+sha512.bbd16e6d7286fd7e01f6b3c0b3c932cda2965c06a908328f74663f10a9aea51f1129eea615134bf992831b009eabe167ecb7008b597f40ff9bc75946aadfb08d",
   "scripts": {
     "prepare": "husky",
     "format": "biome format .",
@@ -24,8 +24,7 @@
     "lint": "markdownlint ./*.md",
     "lint:fix": "pnpm run lint --fix",
     "spellcheck": "cspell . --show-context",
-    "test": "pnpm run spellcheck",
-    "check-all": "pnpm run \"/^(lint|format|test)$/\""
+    "check-all": "pnpm run \"/^(lint|format|spellcheck)$/\""
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.5",

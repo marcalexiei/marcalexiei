@@ -9,18 +9,19 @@ on:
     branches:
       - main
   pull_request:
+    branches:
+      - main
+
+permissions: {}
 
 jobs:
-  check:
+  code-checks:
+    name: Code checks
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
-    strategy:
-      fail-fast: true
-      matrix:
-        script:
-          - format
-          - lint
-          - spellcheck
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout
@@ -38,8 +39,14 @@ jobs:
       - name: Install
         run: pnpm install
 
-      - name: Run ${{ matrix.script }}
-        run: pnpm run ${{ matrix.script }}
+      - name: Format
+        run: pnpm run format
+
+      - name: Lint
+        run: pnpm run lint
+
+      - name: Spellcheck
+        run: pnpm run spellcheck
 
   ci-ok:
     name: CI OK
@@ -47,7 +54,7 @@ jobs:
     timeout-minutes: 1
     if: always()
     needs:
-      - check
+      - code-checks
     steps:
       - name: Exit with error if some jobs are not successful
         run: exit 1

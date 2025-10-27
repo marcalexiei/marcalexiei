@@ -91,15 +91,12 @@ Sometimes I pretend to be an Imperial Stormtrooper or Darth Maul
 
 ## README Repo CI status
 
-[CIBadge]: https://img.shields.io/github/actions/workflow/status/marcalexiei/marcalexiei/CI.yml?style=for-the-badge&logo=github&event=push&label=CI
-[CIURL]: https://github.com/marcalexiei/marcalexiei/actions/workflows/CI.yml
+[CIBadge]: https://img.shields.io/github/actions/workflow/status/marcalexiei/marcalexiei/ci.yml?style=for-the-badge&logo=github&event=push&label=CI
+[CIURL]: https://github.com/marcalexiei/marcalexiei/actions/workflows/ci.yml
 
 [![CI][CIBadge]][CIURL]
 
 <!--
-**marcalexiei/marcalexiei** is a ✨ _special_ ✨ repository.
-Its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 -  ...
