@@ -7,6 +7,7 @@ from smarter build systems to better linting workflows.
 
 <!-- markdownlint-disable MD033 -->
 
+<!--
 <picture>
   <source
     srcset="https://github-readme-stats.vercel.app/api?username=marcalexiei&show_icons=true&theme=react"
@@ -21,6 +22,7 @@ from smarter build systems to better linting workflows.
     src="https://github-readme-stats.vercel.app/api?username=marcalexiei&show_icons=true&theme=react"
   />
 </picture>
+-->
 
 <!-- markdownlint-enable MD033 -->
 
