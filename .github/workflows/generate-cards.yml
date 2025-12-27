@@ -1,0 +1,50 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Run every week on Sunday at midnight
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  build:
+    name: Build card
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate stats card (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=react
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Pull Request
+        id: create_pr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: update-profile-cards
+          title: "feat: update README cards"
+          sign-commits: true
+          delete-branch: true # avoid multiple PRs
+
+      - name: Enable auto-merge
+        run: gh pr merge --merge --auto "${{ steps.create_pr.outputs.pull-request-number }}"
