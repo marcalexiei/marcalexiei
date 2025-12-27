@@ -10,5 +10,5 @@
     "srcset"
   ],
   "useGitignore": true,
-  "ignorePaths": ["**/*-lock.yaml"]
+  "ignorePaths": ["**/*-lock.yaml", "profile/*.svg"]
 }
