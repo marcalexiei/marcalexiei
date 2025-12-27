@@ -63,6 +63,7 @@ jobs:
           AUTHOR: ${{ steps.credentials.outputs.bot-name }} <${{ steps.credentials.outputs.bot-email }}>
 
       - name: Enable auto-merge
+        if: ${{ steps.create_pr.outputs.pull-request-number }} # PR might not being opened
         run: gh pr merge --squash --auto "${{ steps.create_pr.outputs.pull-request-number }}"
         env:
           GH_TOKEN: ${{ steps.credentials.outputs.token }}
