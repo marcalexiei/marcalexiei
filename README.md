@@ -7,22 +7,20 @@ from smarter build systems to better linting workflows.
 
 <!-- markdownlint-disable MD033 -->
 
-<!--
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=marcalexiei&show_icons=true&theme=react"
+    srcset="./profile/stats-dark.svg"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=marcalexiei&show_icons=true&theme=default"
+    srcset="./profile/stats-light.svg"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
   <img
     alt="Marco Pasqualetti's GitHub stats"
-    src="https://github-readme-stats.vercel.app/api?username=marcalexiei&show_icons=true&theme=react"
+    src="./profile/stats-dark.svg"
   />
 </picture>
--->
 
 <!-- markdownlint-enable MD033 -->
 
