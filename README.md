@@ -18,7 +18,7 @@ from smarter build systems to better linting workflows.
   />
   <img
     alt="Marco Pasqualetti's GitHub stats"
-    src="./profile/stats-dark.svg"
+    src="./profile/stats-light.svg"
   />
 </picture>
 
@@ -74,7 +74,7 @@ Below, you'll find a collection of my favorite topics across various areas of in
 <summary>📚 History</summary>
 
 - Ancient Egypt 𓋹
-- Rome 🏛️
+- Ancient Rome 🏛️
 
 </details>
 
@@ -84,8 +84,9 @@ Below, you'll find a collection of my favorite topics across various areas of in
 - Halo 💍
 - Mass Effect 🚀
 - Horizon 🏹
-- Dragon Age 🐉
+- Outer Wilds 🌌
 - Assassin's Creed 🗡️
+- Dragon Age 🐉
 
 </details>
 
