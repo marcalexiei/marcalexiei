@@ -6,8 +6,7 @@
     "marcalexiei",
     "Pasqualetti",
     "Stormtrooper",
-    "Thanos",
-    "srcset"
+    "Thanos"
   ],
   "useGitignore": true,
   "ignorePaths": ["**/*-lock.yaml", "profile/*.svg"]
