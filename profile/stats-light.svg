@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Marco Pasqualetti's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 57, Total Commits  (last year) : 1026, Total PRs: 695, Total Issues: 303, Contributed to (last year): 42</desc>
+        <desc id="descId">Total Stars Earned: 57, Total Commits  (last year) : 1036, Total PRs: 712, Total Issues: 313, Contributed to (last year): 43</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 48.81435095922208;
+        stroke-dashoffset: 49.00366897285061;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >695</text>
+      >712</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >303</text>
+      >313</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >42</text>
+      >43</text>
     </g>
   </g>
     </svg>
