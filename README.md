@@ -26,7 +26,15 @@ from smarter build systems to better linting workflows.
 
 ## 🔭 I’m currently working on
 
-Figuring out what to do with my life
+<!-- markdownlint-disable MD033 -->
+
+<details>
+<summary>Figuring out what to do with my life</summary>
+
+🤔💭🏃‍➡️🌉🫟
+</details>
+
+<!-- markdownlint-enable MD033 -->
 
 ## 💻 Development skills
 
