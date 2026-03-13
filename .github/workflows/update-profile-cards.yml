@@ -2,7 +2,7 @@ name: Update profile cards
 
 on:
   schedule:
-    - cron: "0 0 * * 0" # Run every week on Sunday at midnight
+    - cron: '0 0 * * 0' # Run every week on Sunday at midnight
 
   workflow_dispatch:
 
@@ -59,7 +59,7 @@ jobs:
           sign-commits: true
           delete-branch: true # avoid multiple PRs
         env:
-          COMMIT_MESSAGE: "feat: update README cards"
+          COMMIT_MESSAGE: 'feat: update README cards'
           AUTHOR: ${{ steps.credentials.outputs.bot-name }} <${{ steps.credentials.outputs.bot-email }}>
 
       - name: Enable auto-merge
