@@ -29,7 +29,7 @@
     "husky": "9.1.7",
     "markdownlint": "0.40.0",
     "markdownlint-cli": "0.48.0",
-    "oxfmt": "0.42.0"
+    "oxfmt": "0.43.0"
   },
   "engines": {
     "node": ">= 24"
