@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "words": [
+    // Names
+    "Intelli",
+    "marcalexiei",
+    "Pasqualetti",
+    "Stormtrooper",
+    "Thanos",
+
+    // Words
+    "dedupe",
+  ],
+  "useGitignore": true,
+  "ignorePaths": ["**/*-lock.yaml", "profile/*.svg"],
+}
