@@ -35,7 +35,7 @@ Figuring out what to do with my life
 [JavaScriptBadge]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white
 [TypescriptBadge]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [HTMLBadge]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[CSSBadge]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSSBadge]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white
 [SASSBadge]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 
 ![JavaScript][JavaScriptBadge]
@@ -58,7 +58,7 @@ Figuring out what to do with my life
 
 [IntelliJBadge]: https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white
 [IntelliJURL]: https://nodejs.org/en
-[VSCodeBadge]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
+[VSCodeBadge]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logoColor=white
 [VSCodeURL]: https://react.dev
 
 [![IntelliJ Idea][IntelliJBadge]][IntelliJURL]
