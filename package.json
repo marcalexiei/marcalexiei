@@ -25,11 +25,11 @@
   },
   "devDependencies": {
     "@marcalexiei/oxfmt-config": "1.1.0",
-    "cspell": "10.0.0",
+    "cspell": "10.0.1",
     "husky": "9.1.7",
     "markdownlint": "0.40.0",
     "markdownlint-cli": "0.48.0",
-    "oxfmt": "0.51.0"
+    "oxfmt": "0.53.0"
   },
   "engines": {
     "node": ">= 24"
