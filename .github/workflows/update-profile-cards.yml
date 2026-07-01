@@ -38,7 +38,7 @@ jobs:
           private-key: ${{ secrets.CARD_UPDATER_PRIVATE_KEY }}
 
       - name: Generate stats card (dark)
-        uses: stats-organization/github-readme-stats-action@8614f3a61601854731381d853f8566867754a5ca # v2.0.0
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=react
@@ -46,7 +46,7 @@ jobs:
           token: ${{ steps.credentials.outputs.token }}
 
       - name: Generate stats card (light)
-        uses: stats-organization/github-readme-stats-action@8614f3a61601854731381d853f8566867754a5ca # v2.0.0
+        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=default
