@@ -62,7 +62,10 @@ jobs:
           branch: update-profile-cards
           title: ${{ env.COMMIT_MESSAGE }}
           commit-message: ${{ env.COMMIT_MESSAGE }}
-          body: Scheduled cards update
+          body: |
+            Scheduled cards update
+
+            [View workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
           author: ${{ env.AUTHOR }}
           committer: ${{ env.AUTHOR }}
           sign-commits: true
