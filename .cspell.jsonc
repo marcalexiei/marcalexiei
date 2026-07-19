@@ -13,6 +13,7 @@
 
     // Words
     "dedupe",
+    "elif",
   ],
   "useGitignore": true,
   "ignorePaths": ["**/*-lock.yaml", "profile/*.svg"],
