@@ -1,5 +1,7 @@
-minimumReleaseAge: 1440
-trustPolicy: no-downgrade
-
 dedupePeers: true
 dedupePeerDependents: true
+
+trustPolicy: no-downgrade
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - js-yaml@5.2.2
