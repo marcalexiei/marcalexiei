@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Marco Pasqualetti's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 82, Total Commits  (last year) : 1007, Total PRs: 942, Total Issues: 382, Contributed to (last year): 37</desc>
+        <title id="titleId">Marco Pasqualetti&#39;s GitHub Stats, Rank: A</title>
+        <desc id="descId">Total Stars Earned: 82, Total Commits  (last year) : 981, Total PRs: 950, Total Issues: 382, Contributed to (last year): 37</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 40.46157845408414;
+        stroke-dashoffset: 40.4774962746072;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Marco Pasqualetti's GitHub Stats</text>
+      >Marco Pasqualetti&#39;s GitHub Stats</text>
     </g>
       </g>
     
@@ -177,7 +177,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >1k</text>
+      >981</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >942</text>
+      >950</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
