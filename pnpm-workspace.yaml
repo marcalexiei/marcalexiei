@@ -3,5 +3,3 @@ dedupePeerDependents: true
 
 trustPolicy: no-downgrade
 minimumReleaseAge: 1440
-minimumReleaseAgeExclude:
-  - js-yaml@5.2.2
