@@ -42,40 +42,22 @@ jobs:
           private-key: ${{ secrets.CARD_UPDATER_PRIVATE_KEY }}
 
       - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
-        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=react
           path: ${{ env.DARK_CARD }}
           token: ${{ steps.credentials.outputs.token }}
+          fail_on_error: true
 
       - name: Generate stats card (light) - ${{ env.LIGHT_CARD }}
-        uses: stats-organization/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=default
           path: ${{ env.LIGHT_CARD }}
           token: ${{ steps.credentials.outputs.token }}
-
-      - name: Validate generated cards
-        # github-readme-stats does not fail on API errors (e.g. rate limits);
-        # instead it writes a valid SVG whose text reads "Something went wrong!".
-        # Fail here so a broken card is never committed, opened as a PR, or auto-merged.
-        env:
-          CARDS: '${{ env.DARK_CARD }} ${{ env.LIGHT_CARD }}'
-        run: |
-          status=0
-          for card in $CARDS; do
-            if [ ! -s "$card" ]; then
-              echo "::error file=$card::Card is missing or empty"
-              status=1
-            elif grep -qF 'Something went wrong' "$card"; then
-              echo "::error file=$card::Card contains an error placeholder (likely an API rate limit)"
-              grep -oE 'Resource limits[^<]*|Something went wrong[^<]*' "$card" | head -n1
-              status=1
-            fi
-          done
-          exit $status
+          fail_on_error: true
 
       - name: Create Pull Request
         id: create_pr
