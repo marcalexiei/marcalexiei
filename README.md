@@ -5,8 +5,6 @@ I’m a web developer who loves crafting clean, maintainable code.
 I’m always exploring new tools and techniques that make development smoother,\
 from smarter build systems to better linting workflows.
 
-<!-- markdownlint-disable MD033 -->
-
 <picture>
   <source
     srcset="./profile/stats-dark.svg"
@@ -21,8 +19,6 @@ from smarter build systems to better linting workflows.
     src="./profile/stats-light.svg"
   />
 </picture>
-
-<!-- markdownlint-enable MD033 -->
 
 ## 🔭 I’m currently working on
 
@@ -68,8 +64,6 @@ Figuring out what to do with my life
 
 Below, you'll find a collection of my favorite topics across various areas of interest:
 
-<!-- markdownlint-disable MD033 -->
-
 <details>
 <summary>📚 History</summary>
 
@@ -100,8 +94,6 @@ Below, you'll find a collection of my favorite topics across various areas of in
 - Breaking Bad 💊
 
 </details>
-
-<!-- markdownlint-enable MD033 -->
 
 ## ⚡ Fun fact
 

@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/markdownlint/schema/markdownlint-config-schema-strict.json",
+
+  // The README relies on HTML for
+  // - the theme-aware stats card (`picture`/`source`/`img`)
+  // - for the collapsible interests sections (`details`/`summary`).
+  // Markdown has no equivalent for either, so allow just those elements.
+  "no-inline-html": {
+    "allowed_elements": ["picture", "source", "img", "details", "summary"],
+  },
+}
