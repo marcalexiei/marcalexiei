@@ -52,14 +52,14 @@ Figuring out what to do with my life
 [ReactURL]: https://react.dev
 
 [![NodeJS][NodeBadge]][NodeURL]
-[![NodeJS][ReactBadge]][ReactURL]
+[![React][ReactBadge]][ReactURL]
 
 ### 🧑‍💻 IDE
 
 [IntelliJBadge]: https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white
-[IntelliJURL]: https://nodejs.org/en
+[IntelliJURL]: https://www.jetbrains.com/idea/
 [VSCodeBadge]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logoColor=white
-[VSCodeURL]: https://react.dev
+[VSCodeURL]: https://code.visualstudio.com/
 
 [![IntelliJ Idea][IntelliJBadge]][IntelliJURL]
 [![VSCode][VSCodeBadge]][VSCodeURL]
