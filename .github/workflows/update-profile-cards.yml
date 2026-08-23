@@ -2,7 +2,16 @@ name: Update profile cards
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Run every week on Sunday at midnight
+    # Run every week on Sunday at 05:37 UTC, off the peak windows described in
+    # https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
+    #        ┌───────────── minute (0 - 59)
+    #        │  ┌───────────── hour (0 - 23)
+    #        │  │ ┌───────────── day of the month (1 - 31)
+    #        │  │ │ ┌───────────── month (1 - 12 or JAN-DEC)
+    #        │  │ │ │ ┌───────────── day of the week (0 - 6 or SUN-SAT)
+    #        │  │ │ │ │
+    #        *  * * * *
+    - cron: '37 5 * * 0'
 
   workflow_dispatch:
 
@@ -27,6 +36,8 @@ jobs:
     env:
       DARK_CARD: profile/stats-dark.svg
       LIGHT_CARD: profile/stats-light.svg
+      # Shared card options, only the theme differs between the two cards
+      CARD_OPTIONS: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&number_format=long&show=prs_reviewed
 
     steps:
       - name: Checkout
@@ -45,7 +56,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=react
+          options: ${{ env.CARD_OPTIONS }}&theme=react
           path: ${{ env.DARK_CARD }}
           token: ${{ steps.credentials.outputs.token }}
           fail_on_error: true
@@ -54,7 +65,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=default
+          options: ${{ env.CARD_OPTIONS }}&theme=default
           path: ${{ env.LIGHT_CARD }}
           token: ${{ steps.credentials.outputs.token }}
           fail_on_error: true
