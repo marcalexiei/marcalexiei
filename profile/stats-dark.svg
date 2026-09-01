@@ -6,10 +6,10 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-labelledby="descId"
+        aria-labelledby="titleId descId"
       >
         <title id="titleId">Marco Pasqualetti&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 85, Total Commits  : 2628, Total PRs: 1017, Total Issues: 400, PRs Reviewed: 444, Contributed to (last year): 35</desc>
+        <desc id="descId">Total Stars Earned: 85, Total Commits  : 2745, Total PRs: 1019, Total Issues: 400, PRs Reviewed: 447, Contributed to (last year): 38</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,11 +73,12 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 43.788559318673485;
+        stroke-dashoffset: 43.26071856211434;
       }
     }
   
   
+          
 
           
       /* Animations */
@@ -102,9 +103,15 @@
         </style>
 
         
+        <defs>
+          
+          
+        </defs>
+        
 
         <rect
           data-testid="card-bg"
+          class="card-bg"
           x="0.5"
           y="0.5"
           rx="4.5"
@@ -177,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >2628</text>
+      >2745</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >1017</text>
+      >1019</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -222,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_reviewed"
-      >444</text></a>
+      >447</text></a>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
@@ -237,7 +244,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >35</text>
+      >38</text>
     </g>
   </g>
     </svg>
