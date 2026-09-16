@@ -59,7 +59,7 @@ jobs:
           private-key: ${{ secrets.CARD_UPDATER_PRIVATE_KEY }}
 
       - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
-        uses: stats-forge/github-stats-forge-action@47bd8862c40099ff7e164701b05ec30258ca5c01 # v0.3.0
+        uses: stats-forge/github-stats-forge-action@f539abd8edbb3e6d30dea83848aba1702b533186 # v0.4.0
         with:
           card: stats
           options: ${{ env.CARD_OPTIONS }}&theme=react
@@ -67,7 +67,7 @@ jobs:
           token: ${{ steps.credentials.outputs.token }}
 
       - name: Generate stats card (light) - ${{ env.LIGHT_CARD }}
-        uses: stats-forge/github-stats-forge-action@47bd8862c40099ff7e164701b05ec30258ca5c01 # v0.3.0
+        uses: stats-forge/github-stats-forge-action@f539abd8edbb3e6d30dea83848aba1702b533186 # v0.4.0
         with:
           card: stats
           options: ${{ env.CARD_OPTIONS }}&theme=default
