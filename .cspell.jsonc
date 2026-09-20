@@ -9,12 +9,13 @@
     "Thanos",
 
     // Tools
+    "lefthook",
     "zizmor",
 
     // Words
     "dedupe",
-    "elif",
+    "elif"
   ],
   "useGitignore": true,
-  "ignorePaths": ["**/*-lock.yaml", "profile/*.svg"],
+  "ignorePaths": ["**/*-lock.yaml", "profile/*.svg"]
 }

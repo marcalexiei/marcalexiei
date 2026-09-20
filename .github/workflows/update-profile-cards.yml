@@ -53,13 +53,13 @@ jobs:
 
       - name: Setup credentials
         id: credentials
-        uses: marcalexiei/github-actions/setup-github-app-user-bot@e3b04865510c657477cc722854b31a3b74c72c09 # v2.2.0
+        uses: marcalexiei/github-actions/setup-github-app-user-bot@e9655755a6dc0040e650a931ee5d958c7d7a9f22 # v2.3.1
         with:
           app-id: ${{ vars.CARD_UPDATER_APP_ID }}
           private-key: ${{ secrets.CARD_UPDATER_PRIVATE_KEY }}
 
       - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
-        uses: stats-forge/github-stats-forge-action@f539abd8edbb3e6d30dea83848aba1702b533186 # v0.4.0
+        uses: stats-forge/github-stats-forge-action@02d80bcc244e0050b6208208f57601bc8ed18848 # v0.8.1
         with:
           card: stats
           options: ${{ env.CARD_OPTIONS }}&theme=react
@@ -67,7 +67,7 @@ jobs:
           token: ${{ steps.credentials.outputs.token }}
 
       - name: Generate stats card (light) - ${{ env.LIGHT_CARD }}
-        uses: stats-forge/github-stats-forge-action@f539abd8edbb3e6d30dea83848aba1702b533186 # v0.4.0
+        uses: stats-forge/github-stats-forge-action@02d80bcc244e0050b6208208f57601bc8ed18848 # v0.8.1
         with:
           card: stats
           options: ${{ env.CARD_OPTIONS }}&theme=default
