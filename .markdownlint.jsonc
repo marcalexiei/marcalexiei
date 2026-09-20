@@ -6,6 +6,6 @@
   // - for the collapsible interests sections (`details`/`summary`).
   // Markdown has no equivalent for either, so allow just those elements.
   "no-inline-html": {
-    "allowed_elements": ["picture", "source", "img", "details", "summary"],
-  },
+    "allowed_elements": ["picture", "source", "img", "details", "summary"]
+  }
 }

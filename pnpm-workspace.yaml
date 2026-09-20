@@ -2,4 +2,11 @@ dedupePeers: true
 dedupePeerDependents: true
 
 trustPolicy: no-downgrade
+
+allowBuilds:
+  lefthook: true
+
 minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - brace-expansion@5.0.9
+  - smol-toml@1.7.1

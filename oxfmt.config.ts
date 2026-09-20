@@ -1,3 +1,3 @@
-import { oxfmtConfig } from '@marcalexiei/oxfmt-config';
+import { defineConfig } from '@marcalexiei/oxfmt-config';
 
-export default oxfmtConfig;
+export default defineConfig();
