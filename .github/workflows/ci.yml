@@ -14,10 +14,14 @@ on:
 
 permissions: {}
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   code-checks:
     name: Code checks
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
 
     permissions:
@@ -43,9 +47,9 @@ jobs:
 
   ci-ok:
     name: CI OK
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 1
-    if: always()
+    if: ${{ always() }}
     needs:
       - code-checks
     steps:
