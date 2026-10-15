@@ -50,9 +50,10 @@ jobs:
       # Shared card options, only the theme differs between the two cards
       CARD_OPTIONS: |
         {
-          "show": "all_time_contribs,contributions,prs_reviewed",
-          "hide": "contribs,commits",
+          "show": "all_time_contribs,prs_reviewed",
+          "hide": "contribs",
           "show_icons": "true",
+          "include_all_commits": "true",
           "number_format": "long"
         }
 
