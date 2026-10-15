@@ -48,7 +48,13 @@ jobs:
       DARK_CARD: profile/stats-dark.svg
       LIGHT_CARD: profile/stats-light.svg
       # Shared card options, only the theme differs between the two cards
-      CARD_OPTIONS: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&number_format=long&show=prs_reviewed
+      CARD_OPTIONS: |
+        {
+          "show": "all_time_contribs,contributions,prs_reviewed",
+          "hide": "contribs,commits",
+          "show_icons": "true",
+          "number_format": "long"
+        }
 
     steps:
       - name: Checkout
@@ -63,11 +69,19 @@ jobs:
           app-id: ${{ vars.CARD_UPDATER_APP_ID }}
           private-key: ${{ secrets.CARD_UPDATER_PRIVATE_KEY }}
 
+      - name: Build card options
+        id: options
+        run: |
+          {
+            echo "dark=$(jq -c '. + {theme: "react"}' <<< "${CARD_OPTIONS}")"
+            echo "light=$(jq -c '. + {theme: "default"}' <<< "${CARD_OPTIONS}")"
+          } >> "${GITHUB_OUTPUT}"
+
       - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
         uses: stats-forge/github-stats-forge-action@faf6b741abea69f64550a2ae2c32c88b2da99fd1 # v0.8.3
         with:
           card: stats
-          options: ${{ env.CARD_OPTIONS }}&theme=react
+          options: ${{ steps.options.outputs.dark }}
           path: ${{ env.DARK_CARD }}
           token: ${{ steps.credentials.outputs.token }}
 
@@ -75,7 +89,7 @@ jobs:
         uses: stats-forge/github-stats-forge-action@faf6b741abea69f64550a2ae2c32c88b2da99fd1 # v0.8.3
         with:
           card: stats
-          options: ${{ env.CARD_OPTIONS }}&theme=default
+          options: ${{ steps.options.outputs.light }}
           path: ${{ env.LIGHT_CARD }}
           token: ${{ steps.credentials.outputs.token }}
 
