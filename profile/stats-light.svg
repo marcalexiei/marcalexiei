@@ -1,6 +1,6 @@
 <svg width="500" height="214" viewBox="0 0 500 214" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-id desc-id">
   <title id="title-id">Marco Pasqualetti&#39;s GitHub Stats, Rank: A</title>
-  <desc id="desc-id">Total Stars Earned: 91, Total Contributions: 32254, Total PRs: 1366, Total Issues: 417, PRs Reviewed: 515, Contributed to (all time): 94</desc>
+  <desc id="desc-id">Total Stars Earned: 91, Total Commits  : 3196, Total PRs: 1367, Total Issues: 417, PRs Reviewed: 515, Contributed to (all time): 94</desc>
   <style>
     .header {
       font: 600 18px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
@@ -87,7 +87,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 37.754514451434964;
+        stroke-dashoffset: 40.262765414389456;
       }
     }
     /* Animations */
@@ -148,10 +148,10 @@
       <g transform="translate(0, 25)">
         <g class="stagger" style="animation-delay: 160ms" transform="translate(25, 0)">
           <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7.25-3.25v2.5h2.5a.75.75 0 0 1 0 1.5h-2.5v2.5a.75.75 0 0 1-1.5 0v-2.5h-2.5a.75.75 0 0 1 0-1.5h2.5v-2.5a.75.75 0 0 1 1.5 0Z" />
+            <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" />
           </svg>
-          <text class="stat not_bold" x="25" y="12.5">Total Contributions:</text>
-          <text class="stat bold" x="330" text-anchor="end" y="12.5" data-testid="contributions">32254</text>
+          <text class="stat not_bold" x="25" y="12.5">Total Commits:</text>
+          <text class="stat bold" x="330" text-anchor="end" y="12.5" data-testid="commits">3196</text>
         </g>
       </g>
       <g transform="translate(0, 50)">
@@ -160,7 +160,7 @@
             <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" />
           </svg>
           <text class="stat not_bold" x="25" y="12.5">Total PRs:</text>
-          <text class="stat bold" x="330" text-anchor="end" y="12.5" data-testid="prs">1366</text>
+          <text class="stat bold" x="330" text-anchor="end" y="12.5" data-testid="prs">1367</text>
         </g>
       </g>
       <g transform="translate(0, 75)">
