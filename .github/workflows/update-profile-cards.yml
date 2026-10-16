@@ -50,8 +50,8 @@ jobs:
       # Shared card options, only the theme differs between the two cards
       CARD_OPTIONS: |
         {
-          "show": "all_time_contribs,prs_reviewed",
-          "hide": "contribs",
+          "show": "contributed_to_all_time,prs_reviewed",
+          "hide": "contributed_to",
           "show_icons": "true",
           "include_all_commits": "true",
           "number_format": "long"
@@ -79,7 +79,7 @@ jobs:
           } >> "${GITHUB_OUTPUT}"
 
       - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
-        uses: stats-forge/github-stats-forge-action@faf6b741abea69f64550a2ae2c32c88b2da99fd1 # v0.8.3
+        uses: stats-forge/github-stats-forge-action@99b02695a1560d9d7bdbcc88ccf7e6ba4f348bed # v0.9.0
         with:
           card: stats
           options: ${{ steps.options.outputs.dark }}
@@ -87,7 +87,7 @@ jobs:
           token: ${{ steps.credentials.outputs.token }}
 
       - name: Generate stats card (light) - ${{ env.LIGHT_CARD }}
-        uses: stats-forge/github-stats-forge-action@faf6b741abea69f64550a2ae2c32c88b2da99fd1 # v0.8.3
+        uses: stats-forge/github-stats-forge-action@99b02695a1560d9d7bdbcc88ccf7e6ba4f348bed # v0.9.0
         with:
           card: stats
           options: ${{ steps.options.outputs.light }}
