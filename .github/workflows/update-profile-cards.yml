@@ -75,12 +75,12 @@ jobs:
         id: options
         run: |
           {
-            echo "dark=$(jq -c '. + {theme: "react"}' <<< "${CARD_OPTIONS}")"
-            echo "light=$(jq -c '. + {theme: "default"}' <<< "${CARD_OPTIONS}")"
+            echo "dark=$(jq -c '. + {theme: "cobalt_dark"}' <<< "${CARD_OPTIONS}")"
+            echo "light=$(jq -c '. + {theme: "cobalt_light"}' <<< "${CARD_OPTIONS}")"
           } >> "${GITHUB_OUTPUT}"
 
       - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
-        uses: stats-forge/github-stats-forge-action@99b02695a1560d9d7bdbcc88ccf7e6ba4f348bed # v0.9.0
+        uses: stats-forge/github-stats-forge-action@7a704c7600d9b65459a2625dcab8d3a62d658beb # v0.13.0
         with:
           card: stats
           options: ${{ steps.options.outputs.dark }}
@@ -88,7 +88,7 @@ jobs:
           token: ${{ steps.credentials.outputs.token }}
 
       - name: Generate stats card (light) - ${{ env.LIGHT_CARD }}
-        uses: stats-forge/github-stats-forge-action@99b02695a1560d9d7bdbcc88ccf7e6ba4f348bed # v0.9.0
+        uses: stats-forge/github-stats-forge-action@7a704c7600d9b65459a2625dcab8d3a62d658beb # v0.13.0
         with:
           card: stats
           options: ${{ steps.options.outputs.light }}
