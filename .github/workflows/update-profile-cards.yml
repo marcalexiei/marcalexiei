@@ -80,7 +80,7 @@ jobs:
           } >> "${GITHUB_OUTPUT}"
 
       - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
-        uses: stats-forge/github-stats-forge-action@7a704c7600d9b65459a2625dcab8d3a62d658beb # v0.13.0
+        uses: stats-forge/github-stats-forge-action@4a70afbef1102e09cc8dad3d7a60b4ba430421e3 # v0.13.2
         with:
           card: stats
           options: ${{ steps.options.outputs.dark }}
@@ -88,7 +88,7 @@ jobs:
           token: ${{ steps.credentials.outputs.token }}
 
       - name: Generate stats card (light) - ${{ env.LIGHT_CARD }}
-        uses: stats-forge/github-stats-forge-action@7a704c7600d9b65459a2625dcab8d3a62d658beb # v0.13.0
+        uses: stats-forge/github-stats-forge-action@4a70afbef1102e09cc8dad3d7a60b4ba430421e3 # v0.13.2
         with:
           card: stats
           options: ${{ steps.options.outputs.light }}
