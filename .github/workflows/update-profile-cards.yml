@@ -66,7 +66,7 @@ jobs:
 
       - name: Setup credentials
         id: credentials
-        uses: marcalexiei/github-actions/setup-github-app-user-bot@0ac3ea042e173813ebc7b086c174705c5bfc0fb6 # v2.6.2
+        uses: marcalexiei/github-actions/setup-github-app-user-bot@3145eb8a7405dee53929e0c2495e26af7191daf0 # v2.6.4
         with:
           app-id: ${{ vars.CARD_UPDATER_APP_ID }}
           private-key: ${{ secrets.CARD_UPDATER_PRIVATE_KEY }}
