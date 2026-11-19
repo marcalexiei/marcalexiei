@@ -66,7 +66,7 @@ jobs:
 
       - name: Setup credentials
         id: credentials
-        uses: marcalexiei/github-actions/setup-github-app-user-bot@92c64c084d3479cff756151cb8163d03608f2acd # v2.4.2
+        uses: marcalexiei/github-actions/setup-github-app-user-bot@b67181d953e3679fdcd89cb2c1c3a2d25ba87e42 # v2.6.0
         with:
           app-id: ${{ vars.CARD_UPDATER_APP_ID }}
           private-key: ${{ secrets.CARD_UPDATER_PRIVATE_KEY }}
@@ -80,7 +80,7 @@ jobs:
           } >> "${GITHUB_OUTPUT}"
 
       - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
-        uses: stats-forge/github-stats-forge-action@4a70afbef1102e09cc8dad3d7a60b4ba430421e3 # v0.13.2
+        uses: stats-forge/github-stats-forge-action@feffd859206cb534f2943636136057d01d0e96f9 # v0.16.0
         with:
           card: stats
           options: ${{ steps.options.outputs.dark }}
@@ -88,7 +88,7 @@ jobs:
           token: ${{ steps.credentials.outputs.token }}
 
       - name: Generate stats card (light) - ${{ env.LIGHT_CARD }}
-        uses: stats-forge/github-stats-forge-action@4a70afbef1102e09cc8dad3d7a60b4ba430421e3 # v0.13.2
+        uses: stats-forge/github-stats-forge-action@feffd859206cb534f2943636136057d01d0e96f9 # v0.16.0
         with:
           card: stats
           options: ${{ steps.options.outputs.light }}
@@ -98,7 +98,7 @@ jobs:
       - name: Create Pull Request
         id: create_pr
         # zizmor: ignore[superfluous-actions] -- this action also handles git commit and branch push, not just PR creation
-        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        uses: peter-evans/create-pull-request@3ffccacd46053766916f087ce41d627c0b8cf2d1 # v8.1.3
         with:
           token: ${{ steps.credentials.outputs.token }}
           branch: update-profile-cards
