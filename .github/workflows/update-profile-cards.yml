@@ -63,13 +63,15 @@ jobs:
         with:
           persist-credentials: false
 
-      # Unscoped: the cards read whatever the app can see, not only what the PR needs.
       - name: Create app token
         id: credentials
-        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc # v3.4.0 # zizmor: ignore[github-app]
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc # v3.4.0
         with:
           client-id: ${{ vars.CARD_UPDATER_APP_ID }}
           private-key: ${{ secrets.CARD_UPDATER_PRIVATE_KEY }}
+          permission-contents: write # pushes the card branch and enables auto-merge
+          permission-pull-requests: write # opens the PR
+          permission-issues: read # counts issues for the cards
 
       - name: Build card options
         id: options
