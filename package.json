@@ -21,7 +21,7 @@
     "lint": "markdownlint --ignore-path .gitignore \"**/*.md\"",
     "lint:fix": "pnpm run lint --fix",
     "spellcheck": "cspell . --show-context",
-    "check-all": "pnpm run \"/^(lint|format:check|spellcheck)$/\""
+    "validate": "pnpm run \"/^(lint|format:check|spellcheck)$/\""
   },
   "devDependencies": {
     "@marcalexiei/oxfmt-config": "2.0.1",
