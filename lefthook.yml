@@ -14,5 +14,5 @@ pre-commit:
 
 pre-push:
   jobs:
-    - name: check-all
-      run: pnpm run check-all
+    - name: validate
+      run: pnpm run validate
